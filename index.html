@@ -113,7 +113,8 @@ h1,h2,h3{font-family:'Playfair Display',serif;font-weight:600;line-height:1.12;m
 <div class="toast" id="toast" role="status"></div>
 <script>
 // PERSONALISE THESE TWO LINES BEFORE SENDING HER THE GAME.
-const PERSONAL_MESSAGE = "❤️PARAMOUR❤️,
+
+const PERSONAL_MESSAGE = `❤️ PARAMOUR ❤️,
 
 I sometimes think language is an inadequate little invention. There are feelings so ineffable that even the most beautiful words seem to arrive underdressed.
 
@@ -127,10 +128,11 @@ And if I could choose one beautiful happenstance over and over again, I would ch
 
 You are, in the loveliest sense, my favourite plot twist.
 
-With an affection that words will forever struggle to contain. ❤️";
+With an affection that words will forever struggle to contain. ❤️`;
+
 const SIGN_OFF = "— From ME, with a smile";
 
-// Game settings and state.
+  // Game settings and state.
 const screens = ["start","boxes","riddle","sequence","doors","final"];
 let current = 0, boxTries = 0, sequenceTries = 0, seqInput = [], sequenceReady = false, selectedDoor = 1;
 const pattern = [1,0,3,2,1];
